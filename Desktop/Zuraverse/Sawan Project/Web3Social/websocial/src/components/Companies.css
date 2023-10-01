@@ -1,0 +1,26 @@
+@import '@radix-ui/colors/violet.css';
+@import '@radix-ui/colors/blue.css';
+@import '@radix-ui/colors/gray.css';
+
+.Company-container{
+    height: 172px;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 32px;
+    background-color: var(--gray-6);
+    border-radius: 80px;
+}
+
+.Comapany-icons{
+    
+}
+
+.Sub-Text-Company{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
