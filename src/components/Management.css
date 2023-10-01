@@ -1,0 +1,41 @@
+@import '@radix-ui/colors/gray.css';
+
+
+
+.Container{
+    margin-top: 48px;
+    height:500px;
+   display: flex;
+   flex-direction: column;
+   gap: 48px;
+    /* background-color: #000000; */
+
+}
+
+.TextWrapper{
+    padding-top: 20px;
+    flex: 1;
+    color: var(--gray-11);
+    display: flex;
+    flex-direction: column;
+gap: 16px;
+
+}
+
+
+.SubText{
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+.CardWrapper{
+    display: flex;
+    flex:4;
+    gap: 72px;
+    flex-direction: row;
+}
+.Card{
+    flex: 1;
+    padding: 16px;
+}
